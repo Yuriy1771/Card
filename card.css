@@ -152,3 +152,26 @@ body {
     box-shadow: 0 0 2px black;
     transition: all ease-out .2s;
 }
+
+.buttonSend .btnSend {
+    position: absolute;
+    width: 80%;
+    height: 7%;
+    left: 0;
+    right: 0;
+    top: 70%;
+    bottom: 0;
+    margin: auto;
+    font-size: 20px;
+    font-family: arial;
+    background: rgb(3, 89, 219);
+    color: #fff;
+    border: 1px solid rgb(3, 84, 206);
+    box-shadow:0 0 3px rgb(3, 89, 219);
+    cursor: pointer;
+}
+
+.buttonSend .btnSend:hover {
+    background:rgb(6, 96, 231);
+    transition: all ease-out .2s;
+}
