@@ -16,6 +16,8 @@ body {
     margin: 15% auto;
     min-width: 700px;
     min-height: 500px;
+    max-width: 2500px;
+    max-height: 2500px;
     border-radius: 15px;
     box-shadow: -5px 10px 35px -7px rgb(0, 0, 0, .5);
 }
