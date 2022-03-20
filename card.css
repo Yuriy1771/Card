@@ -20,6 +20,17 @@ body {
     box-shadow: -5px 10px 35px -7px rgb(0, 0, 0, .5);
 }
 
+.logoCard .card {
+    position: absolute;
+    width: 70%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: -24% auto;
+    box-shadow: 0 10px 70px rgb(13, 57, 124);
+}
+
 .inputGroup label {
     position: absolute;
     display: block;
