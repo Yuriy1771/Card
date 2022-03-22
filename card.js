@@ -38,7 +38,7 @@ function initLets() {
 // данная функция вызывает условия if. Если переменная равна пустоте то, выведи return,если переменная
 // не равна пустоте то верни знвчение
 function validateSendBtn() {
-    if(inputCardNumber.value === '') {
+    if(inputCardNumber.value === '' || inputCardNumber.value === '**** **** **** ****') {
         return 'You are not enter <strong>card number</strong>';
     } if(inputCardName.value === '') {
         return 'You are not enter <strong>card name</strong>';
