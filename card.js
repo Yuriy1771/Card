@@ -11,10 +11,6 @@ let selectCW;
 
 initLets();
 
-// при нажатии на send запускается анонимная функция в которой объявляется переменная resultValid
-// и к ней присваивается значение функции validateSendBtn, после запускается условие if в котором
-// resultValid проверяется на валидацию, если resultValid === '' то trur, иначе вывести ошибку через
-// innerHTML
 sendBtn.onclick = () => {
     let resultValid = validateSendBtn();
     if(resultValid === '') {
@@ -35,8 +31,10 @@ function initLets() {
     inputCW = document.querySelector('#cw');
 }
 
-// данная функция вызывает условия if. Если переменная равна пустоте то, выведи return,если переменная
-// не равна пустоте то верни знвчение
+// Валидация запроса на отпавку. Проверяет все ли данные ввел пользователь. 
+// Возвращает: 
+//  - пустую строку, в случае, если валидация прошла успешно
+//  - текст с ошибкой, в случае провала
 function validateSendBtn() {
     if(inputCardNumber.value === '' || inputCardNumber.value === '**** **** **** ****') {
         return 'You are not enter <strong>card number</strong>';
@@ -52,8 +50,7 @@ function validateSendBtn() {
     return '';
 }
 
-
-
+// маска для номера карты
 window.addEventListener("DOMContentLoaded", function() {
 function setCursorPosition(pos, elem) {
     elem.focus();
