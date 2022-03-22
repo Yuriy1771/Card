@@ -16,8 +16,8 @@ body {
     margin: 15% auto;
     min-width: 700px;
     min-height: 500px;
-    max-width: 2500px;
-    max-height: 2500px;
+    max-width: 1200px;
+    max-height: 900px;
     border-radius: 15px;
     box-shadow: -5px 10px 35px -7px rgb(0, 0, 0, .5);
 }
@@ -87,3 +87,28 @@ input::-webkit-inner-spin-button {
     margin: 0; 
 }
 
+.btnSend {
+    position: absolute;
+    width: 40%;
+    height: 7%;
+    top: 70%;
+    left: 30%;
+    border: 1px solid rgb(3, 84, 206);
+    background: rgb(3, 89, 219);
+    box-shadow:0 0 3px rgb(3, 89, 219);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnSend:hover {
+    background: rgb(6, 96, 231);
+    transition: all ease-out .2s;
+}
+
+.errorValid {
+    position: absolute;
+    width: 30%;
+    top: 75%;
+    text-align: center;
+    left: 35%;
+}
