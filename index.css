@@ -13,7 +13,7 @@ body {
     width: 35%;
     height: 65%;
     background: rgb(255, 255, 255);
-    margin: 15% auto;
+    margin: 6% auto;
     min-width: 700px;
     min-height: 500px;
     max-width: 1200px;
@@ -111,4 +111,34 @@ input::-webkit-inner-spin-button {
     top: 75%;
     text-align: center;
     left: 35%;
+}
+
+/* стилизация модального окна */
+.modal {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    min-width: 1000px;
+    min-height: 700px;
+    background: rgb(90, 90, 90, .2);
+}
+
+.modal-content {
+    width: 30%;
+    height: 40%;
+    background: rgb(255, 255, 255);
+    box-shadow: -5px 10px 35px -7px rgb(0, 0, 0, .5);
+    margin: 10% auto;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    left: 63%;
 }
