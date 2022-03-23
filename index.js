@@ -24,6 +24,8 @@ function validateBtnSend() {
         return 'Please, enter your <strong>nickname</strong>'
     } if (inputAge === '') {
         return 'Please, enter your <strong>age</strong>';
+    } if(inputAge < 16) {
+        return 'You are still small';
     }
     return '';
 }
