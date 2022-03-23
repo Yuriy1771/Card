@@ -128,6 +128,7 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-content {
+    position: relative;
     width: 30%;
     height: 40%;
     background: rgb(255, 255, 255);
@@ -140,5 +141,33 @@ input::-webkit-inner-spin-button {
     position: absolute;
     font-size: 30px;
     cursor: pointer;
-    left: 63%;
+    left: 93%;
+    top: -3%;
+}
+
+.titleInModalWindow {
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    left: 32%;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.btnOk {
+    position: absolute;
+    width: 35%;
+    height: 10%;
+    top: 85%;
+    left: 34%;
+    cursor: pointer;
+    border: 1px solid rgb(3, 89, 219);
+    background:rgb(3, 89, 219);
+    box-shadow:0 0 3px rgb(3, 89, 219);
+    color: #fff;
+}
+
+.btnOk:hover {
+    background: rgb(6, 96, 231);
+    transition: all ease-out .2s;
 }
