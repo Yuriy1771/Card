@@ -87,7 +87,7 @@ input::-webkit-inner-spin-button {
     margin: 0; 
 }
 
-.btnSend {
+.btnGetCard {
     position: absolute;
     width: 40%;
     height: 7%;
@@ -100,7 +100,7 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
 }
 
-.btnSend:hover {
+.btnGetCard:hover {
     background: rgb(6, 96, 231);
     transition: all ease-out .2s;
 }
@@ -170,4 +170,54 @@ input::-webkit-inner-spin-button {
 .btnOk:hover {
     background: rgb(6, 96, 231);
     transition: all ease-out .2s;
+}
+
+.yourCardNumber {
+    position: absolute;
+    width: 80%;
+    top: 30%;
+    font-size: 17px;
+    margin-left: 10%; 
+    margin-right: 10%;
+    text-align: center;
+}
+
+.yourCardName {
+    position: absolute;
+    width: 80%;
+    top: 39%;
+    font-size: 17px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    text-align: center;
+}
+
+.yourCardMonth {
+    position: absolute;
+    width: 80%;
+    top: 48%;
+    font-size: 17px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    text-align: center;
+}
+
+.yourCardYear {
+    position: absolute;
+    width: 80%;
+    top: 57%;
+    font-size: 17px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    text-align: center;
+}
+
+.yourCardCW {
+    position: absolute;
+    width: 80%;
+    top: 66%;
+    font-size: 17px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    text-align: center;
 }

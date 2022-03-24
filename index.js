@@ -1,14 +1,15 @@
-const btnSend = document.querySelector('.btnSend');
+const btnGetCard = document.querySelector('.btnGetCard');
 let errorValid = document.querySelector('.errorValid');
-
+let yourCardNumber = document.querySelector('.yourCardNumber');
 let inputNickname;
 let inputAge;
 
-btnSend.onclick = () => {
+btnGetCard.onclick = () => {
     initLets();
     let resultValid = validateBtnSend();
     if(resultValid === '') {
         modalOpen();
+        yourCardNumber.innerHTML += ' 3213 4553 5345 5675';
         // document.location.href = 'file:///C:/Users/gamep/Desktop/Js_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8/card/card.html';
     } else {
         errorValid.innerHTML = resultValid;
@@ -50,3 +51,9 @@ window.onclick = (event) => {
         modalWindow.style.display = 'none';
     }
 }
+
+btnOk.onclick = () => {
+    document.location.href = 'file:///C:/Users/gamep/Desktop/Js_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8/card/card.html';
+}
+
+
