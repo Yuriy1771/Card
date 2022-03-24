@@ -33,7 +33,7 @@ body {
     font-family: arial;
 }
 
-.inputGroup .labelNickname {
+.inputGroup .labelFullName {
     position: absolute;
     width: 20%;
     color: rgb(90, 90, 90);
@@ -44,7 +44,7 @@ body {
     font-family: arial;
 }
 
-.inputGroup #nickname {
+.inputGroup #fullName {
     position: absolute;
     width: 40%;
     height: 7%;
@@ -54,7 +54,7 @@ body {
     border: 1px solid black;
 }
 
-.inputGroup #nickname:hover {
+.inputGroup #fullName:hover {
     background: rgb(245, 243, 243, .6);
     box-shadow: 0 0 2px black;
     transition: all ease-out .2s;
@@ -177,9 +177,8 @@ input::-webkit-inner-spin-button {
     width: 80%;
     top: 30%;
     font-size: 17px;
-    margin-left: 10%; 
-    margin-right: 10%;
-    text-align: center;
+    text-align: left;
+    left: 20%;
 }
 
 .yourCardName {
@@ -187,9 +186,8 @@ input::-webkit-inner-spin-button {
     width: 80%;
     top: 39%;
     font-size: 17px;
-    margin-left: 20%; 
-    margin-right: 20%;
-    text-align: center;
+    text-align: left;
+    left: 20%;
 }
 
 .yourCardMonth {
@@ -197,9 +195,8 @@ input::-webkit-inner-spin-button {
     width: 80%;
     top: 48%;
     font-size: 17px;
-    margin-left: 20%; 
-    margin-right: 20%;
-    text-align: center;
+    text-align: left;
+    left: 20%;
 }
 
 .yourCardYear {
@@ -207,9 +204,8 @@ input::-webkit-inner-spin-button {
     width: 80%;
     top: 57%;
     font-size: 17px;
-    margin-left: 20%; 
-    margin-right: 20%;
-    text-align: center;
+    text-align: left;
+    left: 20%;
 }
 
 .yourCardCW {
@@ -217,7 +213,6 @@ input::-webkit-inner-spin-button {
     width: 80%;
     top: 66%;
     font-size: 17px;
-    margin-left: 20%; 
-    margin-right: 20%;
-    text-align: center;
+    text-align: left;
+    left: 20%;
 }
