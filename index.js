@@ -26,8 +26,8 @@ function initLets() {
 }
 
 function validateBtnSend() {
-    if(inputNickname === '') {
-        return 'Please, enter your <strong>nickname</strong>'
+    if(inputFullName === '') {
+        return 'Please, enter your <strong>full name</strong>'
     } if (inputAge === '') {
         return 'Please, enter your <strong>age</strong>';
     } if(inputAge < 16) {
